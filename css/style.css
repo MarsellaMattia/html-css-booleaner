@@ -1,32 +1,91 @@
+/*general*/
 
+
+body{
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+/*font*/
+  
+  .roboto-bold {
+    font-family: "Roboto", system-ui;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .text-small {
+    font-size: 0.8em;
+
+  }
+  .text-white{
+    color: white;
+  }
+  .textt-grey{
+    color:#878888
+  }
+  .text-blue{
+    color: #1aaae6
+  }
+
+  /* background */
+  .bg-highlight{
+    background-color: #fff00f ;
+  }
+  .bg-blue{
+    background-color:blue
+  }
+  .odd{
+    background-color: #82e6f2
+  }
+  .bg-lightblue{
+    background-color:  #b2e6f2;
+  }
+
+  /* dimension */
+  .w-50{
+    width: 50%;
+  }
+
+/* header */
+  
 header {
-    background-color: rgb(0, 89, 255);
-    background-image: url("../img/pattern.png");
+    height:120px;
+    background: #4da1ff url("../img/pattern.png");
+    background-size:30%;
 }
 
-.primary-color{
-    color:grey;
-    
-} 
 
-.color{
-    color: rgba(0, 132, 255, 0.986);
-}
-main
-
-th{
-    background-color: rgb(0, 162, 255);
-}
-.td{
-background-color: aqua;
+#logo img{
+    width: 200px;
 }
 
-footer {
-    background-image: url("../img/monitor.jpg");
+/* main */
+h1{
+    font: size 3em;
+}
+
+/* footer */
+.inner-footer div{
+    color: white;
+    width: 300px;
+    height: 200px;
+    background-image: url("../img/graph.jpg");
     background-repeat: no-repeat;
-    background-color: white;
-    text-align: left
+    background-size: cover;
 
 }
-
-
+footer h4{
+    font-size: 2em;
+}
+#monitor{
+    background-image: url("../img/monitor.jpg")
+}
+.textt-grey{
+    color: grey;
+}
